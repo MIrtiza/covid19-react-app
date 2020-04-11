@@ -1,0 +1,22 @@
+body{
+    background-color: #fff;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo{
+    width: 370px;
+    margin-top: 40px;
+}
+
+@media (max-width: 770px){
+    .container{
+        margin: 0 auto;
+    }
+    .logo{
+        width: 100%;
+    }
+}
